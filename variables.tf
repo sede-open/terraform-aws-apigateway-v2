@@ -202,7 +202,7 @@ variable "mutual_tls_authentication" {
 # routes and integrations
 variable "integrations" {
   description = "Map of API gateway routes with integrations"
-  type        = map(any)
+  type        = any
   default     = {}
 }
 
